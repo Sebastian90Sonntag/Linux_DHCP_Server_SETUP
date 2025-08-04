@@ -1,5 +1,3 @@
-# Linux_DHCP_Server_SETUP
-
 # ISC DHCP Server + phpIPAM Setup Guide
 
 ## Übersicht
