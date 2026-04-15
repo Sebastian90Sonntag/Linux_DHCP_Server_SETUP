@@ -1,5 +1,17 @@
 # ISC DHCP Server + phpIPAM Setup Guide
-https://demo.phpipam.net/login/
+
+![CI](https://github.com/Sebastian90Sonntag/Linux_DHCP_Server_SETUP/actions/workflows/lint.yml/badge.svg)
+
+> Umfassende Anleitung zur Installation und Konfiguration eines ISC DHCP Servers mit phpIPAM Web-Management auf Linux-Systemen.
+
+| Komponente | Details |
+|---|---|
+| **DHCP Server** | ISC DHCP Server |
+| **Web-Management** | [phpIPAM](https://demo.phpipam.net/login/) |
+| **Unterstützte OS** | Ubuntu 20.04+, Debian 11+, CentOS 8+, RHEL 8+ |
+| **Installer** | `installer.sh` |
+| **CI** | ShellCheck + markdownlint |
+
 ## Übersicht
 
 Diese Dokumentation beschreibt die Installation und Konfiguration von:
@@ -547,3 +559,7 @@ mysqldump -u phpipam -p phpipam > backup.sql
 sudo dhcpd -t -cf /etc/dhcp/dhcpd.conf
 sudo apache2ctl configtest
 ```
+
+---
+
+**Autor:** Sebastian Sonntag
